@@ -1,0 +1,28 @@
+# hame ek yesa code chalana hai jisme se yesa number print kare jo ki 1 se leke kar 10 tak sare number ko  divide kare.
+
+# a=1
+# while(True):
+# 	flag=True
+# 	for i in range(1,21):
+# 		if a%i==0:
+# 			pass
+# 		else:
+# 			flag=False
+# 	if flag==True:
+# 		print a
+# 		break
+# 	a=a+1
+ 
+ # number print karo
+ # 1 se 10 tak,philal ham abhi 10 tak print karenge.
+#  yese ham while se chalaye hai
+
+# c=1
+# while c<=10:
+# 	print c
+# 	c=c+1
+
+# Ab ham yese hi for loop se chalayenge,for loop me hame jaha tak chalana hota hai usse ham ek ank jayda lete hai,jease ki hame 10 tak chalana hai to ham 11 likhenge.
+
+# for i in range(1,11):
+# 	print i
