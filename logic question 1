@@ -1,0 +1,28 @@
+
+# Hum iss program mein ek password checker banayenge jo yeh sunchit karega ki humara password strong hai.
+Pehle user se ek password ka string input lijiye.
+Kam se kam uski length 6 honi chaiye
+Jada se jada length 16 se jyada na ho
+Kam se kam ek dollar ka sign ($) hona chaiye
+Kam se kam password mein 2 ya 8 hona chaiye
+Password mein capital A ya capital Z hona chaiye
+Agar password yeh rules follow kar raha hai toh “Strong Password” print karo, nahi toh “Weak Password” type karo
+
+# password=(raw_input("enter password  "))
+# if len(password)>=6 and len(password)<=16 and "$" in password and "2" in password or "8" in password and "A" in password or "Z" in password:
+#   print "strong"
+# else:
+#   print "weak"
+
+
+# raw_input ka use kar ke 3 alag variables mein 3 integers ka input lein. Input lene ke baad inn 3 mein se sabse bade number ko print karo
+
+# a=int(raw_input("enter your first number"))
+# b=int(raw_input("enter your second number"))
+# c=int(raw_input("enter your third number"))
+# if a < b and b < c :
+#     print c
+# elif a > b and a > c :
+#     print a
+# else :
+#     print b
