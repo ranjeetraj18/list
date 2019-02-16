@@ -1,0 +1,22 @@
+# Prime number print kare,
+# prime wo hote hai jo ki 1 aur apne si divide hote hai ushe prime number kahte hai,
+
+for i in range (20):
+    if i<2:
+        continue
+    for j in range (2,i):
+        if i%j==0:
+            break
+    else:
+        print i
+
+# factorial number,
+# factorial wo number hote hai jo apne number ke niche sare number ko multipul karta hai
+
+a=int(raw_input("enter your number"))
+b=1
+while a>0:
+  b=b*a
+  a=a-1
+  print a
+print b
