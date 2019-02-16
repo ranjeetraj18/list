@@ -1,0 +1,31 @@
+# 1 se 1000 tak saare numbers print karne ka loop likho.
+
+Agar number 3 se divisible hai toh "nav" print karvao.
+Agar number 7 se divisible hai toh "gurukul" print karvao.
+Agar number 21 se divisible hai toh "navgurukul" print karvao.
+
+a=int(raw_input("enter your number"))
+while a<1000:
+  if a%21==0:
+      print "navgurukul",a
+  elif a%7==0:
+      print "gurukul",a
+  elif a%3==0:
+      print "nav",a
+  a=a+1
+
+  # Iss program mein hum students ki ginti aur ek student ke kharche se hisaab se pure NavGurukul ka ek mahine ka kharcha nikalenge
+
+raw_input ka use kar ke do values ka input lo:
+
+Number of students
+Ek student ka kharcha
+Iss ke hisaab se total kharcha nikalein. Agar total kharcha 50000 (50 hazar) ya usse kam hai toh print karein "Hum budget ke andar hain" nahi toh print karo ki hum budget ke bahar hain.
+
+name=int(raw_input("number of student"))
+student=int(raw_input("ek student ka kharcha"))
+total_kharch =50000
+if name*student<=50000:
+  print "hum bugged ke aunder hai"
+else:
+  print "hum bugged se bahar hai"
