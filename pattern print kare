@@ -1,0 +1,33 @@
+#Pattern print kare
+
+# a=1
+# while a<6:
+# 	print "* "*
+# 	a=a+1
+
+# a=1
+# while a<8:
+# 	print "*"*(8-a),""*a
+# 	a=a+1
+
+# a=0
+# while a<10:
+# 	print " "*(10-a)," *"*a
+# 	a=a+1
+
+# a=0
+# while a<5:
+# 	print " "*(5-a),"* "*a
+# 	a=a+1 
+# b=0
+# while b<5:
+# 	print " "*b,"* "*(5-b)
+# 	b=b+1
+
+a=0
+while a<5:
+	if a==0 or a==4:
+		print "************"
+	else:
+		print "*          *"
+	a=a+1
